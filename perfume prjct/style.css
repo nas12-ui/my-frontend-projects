@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+h1,ul,li{
+    display:inline;
+    size:50px;
+
+}
+ul{
+    margin-left: 70%;
+     
+}
+li{
+    color:whitesmoke;
+    cursor:pointer;
+}
+li:hover{
+    color:white;
+}
+input{
+     width:60%;
+     padding:15px ;
+}
+.searcher{
+    padding:50px;
+    text-align: centre;
+    display: block;
+    
+
+}
+
+.products{
+    text-align: center;
+    display:inline-flexbox;
+}
+img{
+    display:inline-flexbox;
+    height:200px;
+    width:200px;
+    
+}
+body{
+    background-image: url('perfumae\ background.jpg');
+    background-color: #288198 ;
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+.box:hover{
+    background-color: black;
+    color:mediumvioletred;
+    display: inline;
+}
+.About {
+    text-align: center;
+    padding-top: 30px;
+    padding: 30px;
+
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
